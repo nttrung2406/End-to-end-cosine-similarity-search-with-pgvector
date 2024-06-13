@@ -1,5 +1,5 @@
 import sys
-sys.path.append("C:/Users/flori/OneDrive/Máy tính/end_to_end_near_dupl_img_search")
+sys.path.append("Directory_path")
 from lib import *
 
 def connect():
@@ -23,5 +23,5 @@ def setup_model():
     return model
 
 def data_file():
-    image_folder = "C:/Users/flori/OneDrive/Máy tính/Tai-lieu/end_to_end_near_dupl_img_search/image"
+    image_folder = "folder_path"
     return os.path.join(image_folder)
