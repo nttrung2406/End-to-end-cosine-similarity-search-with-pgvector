@@ -1,5 +1,5 @@
 import sys
-sys.path.append("C:/Users/flori/OneDrive/Máy tính/end_to_end_near_dupl_img_search")
+sys.path.append("Directory_path")
 from lib import *
 from setup_connection import setup_device, setup_model, data_file
 
@@ -12,7 +12,6 @@ def encode_images_to_tensors(image_folder):
     print("Encoding images...")
     for file_path in glob.glob(os.path.join(image_folder, '*')):
         if file_path.lower().endswith(('.jpg', '.jpeg', '.png')):
-            # image = preprocess(Image.open(image_path)).unsqueeze(0).to(device)
             with torch.no_grad():
                 image_names.append(file_path)
                 encoded_image = model.encode([Image.open(filepath) for filepath in image_names], batch_size=128, convert_to_tensor=True, show_progress_bar=True, device=device)
