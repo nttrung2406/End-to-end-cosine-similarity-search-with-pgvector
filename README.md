@@ -61,6 +61,7 @@ Use this query to find the cosine similarity between two vectors:
 **Directory structure:**
 
 your_project/
+
 │
 ├── Dockerfile
 
