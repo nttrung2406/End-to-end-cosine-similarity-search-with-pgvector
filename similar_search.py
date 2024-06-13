@@ -1,5 +1,5 @@
 import sys
-sys.path.append("C:/Users/flori/OneDrive/Máy tính/end_to_end_near_dupl_img_search")
+sys.path.append("Directory_path")
 from lib import *
 from encode_clip import encode_images_to_tensors
 from setup_connection import connect, data_file, setup_device, setup_model
