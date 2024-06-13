@@ -1,5 +1,7 @@
 # End to end cosine similarity search with pgvector
 
+Upload images to Postgres, save images with tensors format and query the near duplicate images with pgvector.
+
 INSTALL PGVECTOR EXTENSIONS ON POSTGRES
 
 **Requirement**:
