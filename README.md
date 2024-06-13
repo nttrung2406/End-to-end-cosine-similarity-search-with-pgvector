@@ -63,10 +63,16 @@ Use this query to find the cosine similarity between two vectors:
 your_project/
 │
 ├── Dockerfile
+
 ├── requirements.txt
+
 ├── your_script.py
+
 ├── lib/
 │   ├── __init__.py
+
 │   └── other_files.py
+
 └── encode_clip.py
+
 └── setup_connection.py
