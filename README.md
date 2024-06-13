@@ -57,3 +57,16 @@ Create and add data into the database as same as above (remember to convert into
 Use this query to find the cosine similarity between two vectors:
 
 >>  1 - (t1.tensor <-> t2.tensor) AS similarity
+
+**Directory structure:**
+
+your_project/
+│
+├── Dockerfile
+├── requirements.txt
+├── your_script.py
+├── lib/
+│   ├── __init__.py
+│   └── other_files.py
+└── encode_clip.py
+└── setup_connection.py
