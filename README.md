@@ -70,6 +70,7 @@ your_project/
 ├── your_script.py
 
 ├── lib/
+
 │   ├── __init__.py
 
 │   └── other_files.py
